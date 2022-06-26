@@ -4,10 +4,10 @@ type Query {
 
 type Show {
     title: String
-    actors: [Actor]
+    actor: Actor
 }
 
 type Actor {
     name: String
-    age: Int
+    age: String
 }

@@ -1,4 +1,4 @@
-package com.xia.yu.graphqldemo;
+package com.xia.houqi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

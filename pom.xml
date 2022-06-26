@@ -8,11 +8,11 @@
         <version>2.6.8</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.xia.yu</groupId>
-    <artifactId>graphql-demo</artifactId>
+    <groupId>com.xia</groupId>
+    <artifactId>houqi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>graphql-demo</name>
-    <description>graphql-demo</description>
+    <name>houqi</name>
+    <description>houqi</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -37,6 +37,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
         </dependency>
     </dependencies>
 
